@@ -9,6 +9,15 @@
     ]
   },
   {
+    "patchName": "Custom Icon",
+    "options": [
+      {
+        "key": "appIcon",
+        "value": "mmt"
+      }
+    ]
+  },
+  {
     "patchName": "Custom branding name Reddit",
     "options": [
       {
@@ -111,11 +120,13 @@
     ]
   },
   {
-	  "patchName" : "Custom branding",
-	  "options" : [ {
-		"key" : "appName",
-		"value" : "ReVanced"
-	  } ]
+    "patchName": "Custom branding",
+    "options": [
+      {
+        "key": "appName",
+        "value": "ReVanced"
+      }
+    ]
   },
   {
     "patchName": "Custom branding wordmark header",
