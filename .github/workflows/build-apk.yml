@@ -20,7 +20,7 @@ on:
         description: "Upload Magisk Module from nikhilbadyal/revanced-magisk-module to Telegram"
         required: false
         type: boolean
-        default: true
+        default: false
       APPRISE_NOTIFY:
         description: "Use Apprise to Notify"
         required: false
@@ -45,7 +45,7 @@ on:
         type: boolean
         description: 'Run the build with tmate debugging enabled.'
         required: false
-        default: true
+        default: false
       PREFERRED_PATCH_APPS:
         description: "Apps to be patched. Overrides any env set"
         required: false
@@ -66,7 +66,7 @@ on:
         description: "Upload Magisk Module from nikhilbadyal/revanced-magisk-module to Telegram"
         required: false
         type: boolean
-        default: true
+        default: false
       APPRISE_NOTIFY:
         description: "Use Apprise to Notify"
         required: false
@@ -91,7 +91,7 @@ on:
         type: boolean
         description: 'Run the build with tmate debugging enabled.'
         required: false
-        default: true
+        default: false
       PREFERRED_PATCH_APPS:
         description: "Apps to be patched. Overrides any env set"
         required: false
